@@ -1,0 +1,93 @@
+body {
+    border-radius: 30px;
+    background-image: url("https://www.urban-hub.com/wp/wp-content/uploads/2018/04/Lasecity_1920X8642.png");
+    background-attachment: fixed;
+}
+
+.card {
+    background-color: hsla(0, 0%, 100%, 0.8);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.header {
+    text-align: center;
+}
+
+.me {
+    border-radius: 50%;
+    border: 3px solid #ADAECB;
+}
+
+.hobbies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.hobby1, .hobby2, .hobby3 {
+    background-color: hsla(0, 0%, 0%, 0.5);
+    padding: 20px;
+    color: white;
+    border-radius: 10px;
+    width: 350px;
+    margin-top: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+div > p {
+    text-align: justify;
+}
+
+.follow {
+   margin: 50px;
+   font-size: 20px ;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+.rps {
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(54, 54, 179);
+    color: white;
+    font-size: 18px;
+}
+
+.fa-facebook, .fa-github, .fa-linkedin {
+    color: rgb(54, 54, 179);
+}
+
+button > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+button:hover > a, button:hover{
+    background-color: rgb(134, 16, 16);
+    transition: 1s;
+}
+
+ul {
+    list-style-type: none;
+}

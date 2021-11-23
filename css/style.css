@@ -1,0 +1,29 @@
+.header {
+    text-align: center;
+}
+
+.me {
+    border-radius: 50%;
+    border: 3px solid #ADAECB;
+}
+
+.hobbies {
+    display: flex;
+    justify-content: space-around;
+}
+
+.hobby1 .hobby2 .hobby3 {
+    display: flex;
+}
+
+.follow {
+    padding: 0 190px;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+h2 {
+    text-decoration: underline;
+}
